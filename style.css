@@ -1,0 +1,121 @@
+body {
+            margin: 0;
+            font-family: Georgia, serif;
+            background-color: #f8edda;
+            color: #4b2818;
+        }
+
+        header {
+            background-color: #783c20;
+            color: #fff1d5;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #b65b24;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffdf91;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        .hero h2 {
+            color: #a3471c;
+            font-size: 30px;
+        }
+
+        .hero img {
+            width: 80%;
+            max-width: 650px;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .generator {
+            background-color: #fff9ed;
+            border: 3px solid #c47a35;
+            border-radius: 15px;
+            max-width: 650px;
+            margin: 30px auto;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 10px #00000020;
+        }
+
+        .generator h2 {
+            color: #963f1d;
+        }
+
+        button {
+            background-color: #a3471c;
+            color: white;
+            border: none;
+            padding: 14px 25px;
+            border-radius: 8px;
+            font-size: 17px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #713016;
+        }
+
+        #recipeResult {
+            margin-top: 25px;
+            text-align: left;
+            line-height: 1.7;
+        }
+
+        #recipeResult h3 {
+            color: #a3471c;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        footer {
+            background-color: #783c20;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            nav a {
+                margin: 6px;
+            }
+
+            .generator {
+                margin: 20px;
+            }
+        }
